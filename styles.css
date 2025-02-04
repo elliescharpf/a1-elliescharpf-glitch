@@ -1,0 +1,47 @@
+body {background-color: #F1F2ED; font-family: Georgia;}
+h1 {color: #415D3F; font-family: Georgia;}
+h2 {color: #415D3F; font-family: Georgia;}
+h3 {color: #415D3F; font-family: Georgia;}
+h4 {color: black; font-family: Georgia;}
+p {color: black; font-family: Georgia; font-size: larger;}
+
+.navbar ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #4E704C;
+}
+
+.navbar li {
+float: left;
+}
+
+.navbar li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-family: Georgia;
+}
+
+.navbar li a:hover{
+background-color: #415D3F;
+}
+
+table, th, td{
+    border:1px solid black;
+    width: 50%;
+    font-family: Georgia;
+}
+  
+aside {
+    width: 40%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-family: Georgia;
+    background-color: #689565;
+}
+
